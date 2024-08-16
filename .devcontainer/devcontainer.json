@@ -1,8 +1,5 @@
 {
   "name": "Daytona Docs",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
   "remoteUser": "root",
   "postCreateCommand": "yarn install",
   "waitFor": "postCreateCommand",
